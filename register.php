@@ -6,33 +6,52 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<main class="fixed left-0 top-0 right-0 bottom-0 flex items-center justify-center bg-blue-500">
-    <article>
-        <header>
-            <h1 class="text-3xl">Cadastra-se</h1>
+<main class="fixed left-0 top-0 right-0 bottom-0 flex justify-center bg-gradient-to-r from-sky-500 to-indigo-500">
+    <article class="flex flex-wrap content-center w-3/12">
+        <header class="w-full">
+            <h1 class="text-3xl uppercase font-bold text-white text-center">cadastra-se</h1>
         </header>
-        <div>
-            <form class="">
-                <div class="">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" placeholder="Fulano de tal" class="" required>
+        <div class="w-full mt-32">
+            <form method="post" action="#" autocomplete="off" class="">
+                <div class="w-full flex p-6 rounded-full bg-slate-100/75">
+                    <span class="material-symbols-outlined bases-4 mr-4 text-gray-500">notes</span>
+                    <input type="text" id="name" name="name" placeholder="Nome"
+                           class="w-full bg-transparent font-bold outline-none placeholder:text-gray-500 font-bold outline-none"
+                           required>
                 </div>
-                <div class="">
-                    <label for="email" class="">E-mail:</label>
-                    <input type="email" id="email" name="email" placeholder="teste@gmail.com" class="" required>
+                <div class="w-full flex p-6 mt-6 rounded-full bg-slate-100/75">
+                    <span class="material-symbols-outlined bases-4 mr-4 text-gray-500">mail</span>
+                    <input type="email" id="email" name="email" placeholder="E-mail"
+                           class="w-full bg-transparent font-bold outline-none placeholder:text-gray-500 font-bold outline-none"
+                           required>
                 </div>
-                <div class="">
-                    <label for="password" class="">Senha: </label>
-                    <input type="password" id="password" name="password" class="" required>
+                <div class="w-full flex items-center p-6 mt-6 rounded-full bg-slate-100/75">
+                    <span class="material-symbols-outlined w-fit mr-4 text-gray-500">lock</span>
+                    <input type="password" id="password" name="password" placeholder="Senha"
+                           class="w-full bg-transparent font-bold outline-none placeholder:text-gray-500 font-bold outline-none"
+                           required>
+                    <button type="button" class="w-fit flex items-center text-gray-500">
+                        <span class="material-symbols-outlined ml-4">visibility</span>
+                    </button>
                 </div>
-                <div class="">
-                    <label for="password_repeat" class="">Repita a senha: </label>
-                    <input type="password" id="password_repeat" name="password_repeat" class="" required>
+                <div class="w-full flex items-center p-6 mt-6 rounded-full bg-slate-100/75">
+                    <span class="material-symbols-outlined bases-4 mr-4 text-gray-500">lock_open</span>
+                    <input type="password" id="password_repeat" name="password_repeat" placeholder="Repita a senha"
+                           class="w-full bg-transparent font-bold outline-none placeholder:text-gray-500 font-bold outline-none"
+                           required>
+                    <button type="button" class="w-fit flex items-center text-gray-500">
+                        <span class="material-symbols-outlined ml-4">visibility</span>
+                    </button>
                 </div>
-                <button type="submit" class="w-full p-2 mt-2 bg-gradient-to-r from-red-500 to-red-700">Cadastra-se</button>
+                <button type="submit"
+                        class="w-full p-6 mt-20 rounded-full text-white font-bold bg-transparent border border-gray-300 hover:border-gray-100">
+                    Cadastra-se
+                </button>
             </form>
         </div>
     </article>
