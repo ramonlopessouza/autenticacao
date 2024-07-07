@@ -35,7 +35,7 @@
                            class="w-full bg-transparent font-bold outline-none placeholder:text-gray-500 font-bold outline-none"
                            required>
                     <button type="button" class="w-fit flex items-center text-gray-500">
-                        <span class="material-symbols-outlined ml-4">visibility</span>
+                        <span class="material-symbols-outlined ml-4 j_toggle_password" data-id="password">visibility</span>
                     </button>
                 </div>
                 <div class="w-full flex items-center p-6 mt-6 rounded-full bg-slate-100/75">
@@ -44,7 +44,7 @@
                            class="w-full bg-transparent font-bold outline-none placeholder:text-gray-500 font-bold outline-none"
                            required>
                     <button type="button" class="w-fit flex items-center text-gray-500">
-                        <span class="material-symbols-outlined ml-4">visibility</span>
+                        <span class="material-symbols-outlined ml-4 j_toggle_password" data-id="password_repeat">visibility</span>
                     </button>
                 </div>
                 <button type="submit"
@@ -67,8 +67,8 @@
     </article>
 </main>
 <script src="https://cdn.tailwindcss.com"></script>
-<script src="assets/js/auth.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="assets/js/auth.js"></script>
 </body>
 </html>
