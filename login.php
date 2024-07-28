@@ -13,59 +13,60 @@
 <body>
 <main class="main-container">
     <section class="main-content">
-        <article class="basis-7/12 flex flex-wrap py-20 px-16 rounded-l-2xl bg-blue-500">
-            <h1 class="text-3xl uppercase font-bold text-white mt-12">Ainda não tem conta?</h1>
-            <p class="text-lg text-white">Você será redirecionado para a página de
-                <a href="register.php" class="underline decoration-sky-500">registro</a>, onde poderá preencher seus
-                dados pessoais e criar sua conta com facilidade.</p>
-            <div class="w-full">
+        <article class="main-left-article">
+            <header>
+                <h1 class="main-left-article-header-title">Ainda não tem conta?</h1>
+            </header>
+            <p class="main-left-article-content">Você será redirecionado para a página de
+                <a href="register.php" class="main-left-article-link">registro</a>, onde poderá preencher seus
+                dados pessoais e criar sua conta com facilidade.
+            </p>
+            <div class="main-left-article-content-action">
                 <a href="register.php"
-                   class="w-full flex justify-center items-center rounded-full text-white font-bold">
-                    <span class="w-full mx-12 rounded-full text-center py-4 text-white font-bold bg-sky-500">Criar conta</span>
+                   class="main-left-article-content-action-link">
+                   Criar conta
                 </a>
             </div>
         </article>
-        <article class="basis-full flex flex-wrap pt-20 px-12 content-center rounded-r-2xl bg-white">
-            <header class="w-full">
-                <h1 class="text-3xl uppercase font-bold text-blue-500 text-center">Acessar a conta</h1>
+        <article class="main-rigth-article">
+            <header class="main-rigth-article-header">
+                <h1 class="main-rigth-article-header-title">Acessar a conta</h1>
             </header>
-            <div class="w-full mt-24">
-                <form method="post" action="#" autocomplete="off" class="">
-                    <div class="w-full flex p-6 bg-stone-200/70">
-                        <span class="material-symbols-outlined bases-4 mr-4 text-gray-500">mail</span>
+            <div class="main-rigth-article-content">
+                <form method="post" action="#" autocomplete="off">
+                    <div class="main-rigth-article-content-div-email">
+                        <span class="material-symbols-outlined main-rigth-article-content-div-email-icon">mail</span>
                         <input type="email" id="email" name="email" placeholder="E-mail"
-                               class="w-full bg-transparent font-bold outline-none placeholder:text-gray-500 font-bold outline-none"
+                               class="main-rigth-article-content-div-email-input"
                                required>
                     </div>
-                    <div class="w-full flex items-center p-6 mt-6 bg-stone-200/70">
-
-                        <span class="material-symbols-outlined w-fit mr-4 text-gray-500">lock</span>
+                    <div class="main-rigth-article-content-div-password">
+                        <span class="material-symbols-outlined main-rigth-article-content-div-password-icon">lock</span>
                         <input type="password" id="password" name="password" placeholder="Senha"
-                               class="w-full bg-transparent font-bold outline-none placeholder:text-gray-500 font-bold outline-none"
+                               class="main-rigth-article-content-div-password-input"
                                required>
                         <button type="button" class="w-fit flex items-center text-gray-500">
                         <span class="material-symbols-outlined ml-4 j_toggle_password"
                               data-id="password">visibility</span>
                         </button>
                     </div>
-                    <div class="flex items-center mt-4">
-                        <input type="checkbox" id="checkbox" class="text-xl">
-                        <label for="checkbox" class="w-fit mx-2 text-base text-neutral-500 font-bold">Manter
+                    <div class="main-rigth-article-content-div-checkbox">
+                        <input type="checkbox" id="checkbox" class="main-rigth-article-content-div-checkbox-input">
+                        <label for="checkbox" class="main-rigth-article-content-div-checkbox-label">Manter
                             conectado</label>
                     </div>
-                    <div class="flex flex-wrap justify-center">
+                    <div class="main-rigth-article-content-div-button">
                         <button type="submit"
-                                class="basis-5/12 p-4 mt-6 rounded-full uppercase text-white font-bold bg-blue-500 hover:sky-400">
+                                class="main-rigth-article-content-div-button-button">
                             Entrar
                         </button>
                     </div>
-                    <div class="w-full flex justify-between mt-24 mb-12">
-                        <a href="home.php" class="w-fit flex items-center font-bold text-neutral-500">
-                            <span class="material-symbols-outlined text-sm mr-1">arrow_back</span>
-                            <span class="text-sm hover:underline hover:decoration-sky-500">Voltar para o site</span>
+                    <div class="main-rigth-article-content-div-links">
+                        <a href="home.php" class="main-rigth-article-content-div-links-left">
+                            <span class="material-symbols-outlined main-rigth-article-content-div-links-span-icon">arrow_back</span>
+                            <span class="main-rigth-article-content-div-links-span">Voltar para o site</span>
                         </a>
-                        <a href="reset.php" class="w-fit flex items-center font-bold text-neutral-500 text-sm
-                     hover:underline hover:decoration-sky-500">Esqueceu a senha?</a>
+                        <a href="reset.php" class="main-rigth-article-content-div-links-right">Esqueceu a senha?</a>
                     </div>
                 </form>
             </div>

@@ -1,1 +1,239 @@
 @import "boot.css";
+
+.main-left-article {
+    flex-basis: 58.3%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 4rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #4582F6FF;
+}
+
+.main-left-article-header-title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.main-left-article-content {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #fff;
+}
+
+.main-left-article-link {
+    text-decoration-line: underline;
+    text-decoration-color: #f3f4f6;
+}
+
+.main-left-article-content-action {
+    width: 100%;
+}
+
+.main-left-article-content-action-link {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 9999px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.main-rigth-article {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    align-content: center;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1rem;
+    background-color: #fff;
+}
+
+.main-rigth-article-header {
+    width: 100%;
+}
+
+.main-rigth-article-header-title {
+    font-size: 1.875em;
+    line-height: 2.25em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4582F6FF;
+    text-align: center;
+}
+
+.main-rigth-article-content {
+    width: 100%;
+    margin-top: 6rem;
+}
+
+/*
+    Email
+*/
+
+.main-rigth-article-content-div-email {
+    width: 100%;
+    display: flex;
+    padding: 1.5rem;
+    background-color: rgba(231, 229, 228, 0.7);
+}
+
+.main-rigth-article-content-div-email-icon {
+    margin-right: 1rem;
+    color: #6B7280FF;
+}
+
+.main-rigth-article-content-div-email-input {
+    width: 100%;
+    background: transparent;
+    font-weight: 700;
+    outline: none;
+}
+
+.main-rigth-article-content-div-email-input::placeholder {
+    color: #6B7280FF;
+}
+
+/*
+    Password
+*/
+
+.main-rigth-article-content-div-password {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: rgba(231, 229, 228, 0.7);
+}
+
+.main-rigth-article-content-div-password-icon {
+    width: fit-content;
+    margin-right: 1rem;
+    color: #6B7280FF;
+}
+
+.main-rigth-article-content-div-password-input {
+    width: 100%;
+    font-weight: 700;
+    outline: none;
+    background-color: transparent;
+}
+
+.main-rigth-article-content-div-password-input::placeholder {
+    color: #6B7280FF;
+}
+
+/*
+    CheckBox
+*/
+
+.main-rigth-article-content-div-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.main-rigth-article-content-div-checkbox-input {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.main-rigth-article-content-div-checkbox-label {
+    width: fit-content;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    color: #737373FF;
+}
+
+/*
+    Button
+*/
+
+.main-rigth-article-content-div-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-rigth-article-content-div-button-button {
+    flex-basis: 41.666667%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background-color: #4582F6FF;
+}
+
+.main-rigth-article-content-div-button-button:hover {
+    background-color: #38BDF8FF;
+}
+
+/*
+    Links
+*/
+
+.main-rigth-article-content-div-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.main-rigth-article-content-div-links-left {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #737373FF;
+}
+
+.main-rigth-article-content-div-links-span-icon {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-right: 0.25rem;
+}
+
+.main-rigth-article-content-div-links-span {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.main-rigth-article-content-div-links-span:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #0ea5e9;
+}
+
+.main-rigth-article-content-div-links-right {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #737373FF;
+}
+
+.main-rigth-article-content-div-links-right:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #0ea5e9;
+}
